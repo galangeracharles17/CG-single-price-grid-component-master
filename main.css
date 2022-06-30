@@ -37,7 +37,7 @@ body {
 }
 
 .main-component {
-    width: 560px;
+    width: 600px;
     box-shadow: 0px 8px 10px 6px hsla(217, 22%, 67%, 0.2);
     border-radius: 8px;
     overflow: hidden;
@@ -51,20 +51,20 @@ body {
 .top-component__header {
     color: var(--Cyan);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 16px;
 }
 
 h1.top-component__header+h2 {
     color: var(--Bright-Yellow);
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 8px;
 }
 
 .top-component__description {
     color: var(--Grayish-Blue);
     line-height: 1.5;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .bot-component {
@@ -72,29 +72,29 @@ h1.top-component__header+h2 {
 }
 
 .left-component {
-    width: 280px;
+    width: 300px;
     padding: 32px;
     background-color: var(--Cyan);
     color: var(--White);
 }
 
 .left-component__header {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 16px;
 }
 
 .left-component__price {
     margin-bottom: 8px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     vertical-align: middle;
     display: flex;
-    gap: 8px;
+    gap: 10px;
 }
 
 .left-component__price--gb {
     color: var(--Grayish-White);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: lighter;
     display: inline-block;
     align-self: center;
@@ -104,14 +104,10 @@ h1.top-component__header+h2 {
     margin-bottom: 16px;
 }
 
-.left-component__description+div {
-    display: flex;
-    justify-content: center;
-}
-
 .left-component__button {
     border: none;
-    padding: 10px 82px;
+    width: 100%;
+    padding: 10px 0;
     display: block;
     border-radius: 4px;
     background-color: var(--Bright-Yellow);
@@ -130,19 +126,19 @@ h1.top-component__header+h2 {
 }
 
 .right-component {
-    width: 280px;
-    padding: 32px 64px 32px 32px;
+    width: 300px;
+    padding: 32px 58px 32px 32px;
     background-color: var(--Light--Cyan);
     color: var(--White);
 }
 
 aside.right-component h3 {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 16px;
 }
 
 .right-component__description {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: lighter;
     color: var(--White-Opacity);
     line-height: 1.2;
@@ -181,7 +177,7 @@ aside.right-component h3 {
     }
 
     .left-component__button {
-        padding: 15px 105px;
+        padding: 15px 0px;
     }
 
     .right-component {
